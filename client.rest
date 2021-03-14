@@ -1,0 +1,21 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Igor Lamas",
+  "username": "lamas250"
+}
+
+###
+
+GET http://localhost:3333/users
+
+
+###
+GET http://localhost:3333/todos
+Content-Type: application/json
+username: lamas250
+
+{
+
+}
